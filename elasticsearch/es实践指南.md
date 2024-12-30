@@ -161,3 +161,10 @@ GET /_all/_settings?filter_path=**.creation_date
 ```json
  GET /_cat/indices?v&s=creation.date:desc
 ```
+
+
+### 删除数据
+
+```json
+DELETE /authority_resource_data/_doc/1455818647728689179_user_1820179489074843648
+```
